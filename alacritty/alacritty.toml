@@ -1,0 +1,37 @@
+live_config_reload = true
+import = [
+    "~/.config/alacritty/themes/themes/nightfly.toml"
+]
+
+[window]
+# padding = { x = 10, y = 10 }
+dynamic_title = false
+opacity = 1
+# blur = true
+startup_mode = "Maximized"
+decorations_theme_variant = "Dark"
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[font]
+normal = { family = 'JetBrains Mono Nerd Font', style = "Regular" }
+
+[selection]
+save_to_clipboard = true
+
+[env]
+term = "xterm-256color"
+
+[keyboard]
+bindings = [
+{ key = "Up", mods = "Control", action = "ScrollLineUp" },
+{ key = "Down", mods = "Control", action = "ScrollLineDown" },
+{ key = "Home", mods = "Control", action = "ScrollToTop" },
+{ key = "End", mods = "Control", action = "ScrollToBottom" },
+]
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+
+
